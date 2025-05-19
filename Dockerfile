@@ -1,5 +1,5 @@
 FROM openjdk:7 AS builder
-COPY /c/Users/veyse/OneDrive/Desktop/mygit/dockertest1
+COPY ./Source /c/Users/veyse/OneDrive/Desktop/mygit/dockertest1
 WORKDIR /c/Users/veyse/OneDrive/Desktop/mygit/dockertest1
 RUN javac app1.java
 
